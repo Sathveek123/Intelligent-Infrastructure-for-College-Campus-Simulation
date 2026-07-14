@@ -1,0 +1,1674 @@
+{
+  "institution": {
+    "name": "GMR Institute of Technology",
+    "shortName": "GMRIT",
+    "location": {
+      "address": "GMR Nagar, Rajam",
+      "district": "Vizianagaram",
+      "state": "Andhra Pradesh",
+      "country": "India",
+      "pincode": "532127",
+      "coordinates": {
+        "latitude": 18.4500,
+        "longitude": 83.6667
+      }
+    },
+    "established": 1997,
+    "campusAreaAcres": 117,
+    "affiliation": "JNTU Kakinada",
+    "accreditation": "NAAC A+ Grade"
+  },
+
+  "infrastructure": {
+    "academicBlocks": [
+      {
+        "id": "BLK-CSE-001",
+        "blockName": "Computer Science & Engineering Block",
+        "shortName": "CSE Block",
+        "blockCode": "CSE-BLK",
+        "type": "Academic",
+        "branches": ["Computer Science & Engineering"],
+        "branchCodes": ["CSE"],
+        "constructionYear": 2005,
+        "buildingType": "Academic",
+        "structure": {
+          "totalFloors": 4,
+          "groundFloor": true,
+          "basementFloors": 0,
+          "rooftop": "Accessible"
+        },
+        "rooms": {
+          "classrooms": {
+            "count": 18,
+            "capacityRange": "55-65 students",
+            "averageCapacity": 60,
+            "totalCapacity": 1080
+          },
+          "labs": {
+            "count": 6,
+            "types": [
+              {
+                "name": "Programming Lab 1",
+                "capacity": 60,
+                "equipment": "60 Desktop PCs",
+                "software": ["Python", "Java", "C++", "VS Code"]
+              },
+              {
+                "name": "Programming Lab 2",
+                "capacity": 60,
+                "equipment": "60 Desktop PCs",
+                "software": ["Python", "Java", "C++", "Eclipse"]
+              },
+              {
+                "name": "AI/ML Lab",
+                "capacity": 50,
+                "equipment": "50 High-spec PCs with GPU",
+                "software": ["TensorFlow", "PyTorch", "Jupyter"]
+              },
+              {
+                "name": "Networks Lab",
+                "capacity": 40,
+                "equipment": "Cisco Routers, Switches, Network Simulators",
+                "software": ["Packet Tracer", "Wireshark"]
+              },
+              {
+                "name": "Database Management Lab",
+                "capacity": 50,
+                "equipment": "50 Desktop PCs",
+                "software": ["MySQL", "Oracle", "MongoDB"]
+              },
+              {
+                "name": "Project Lab",
+                "capacity": 40,
+                "equipment": "40 Workstations",
+                "software": ["Full Development Stack"]
+              }
+            ],
+            "totalCapacity": 300
+          },
+          "facultyRooms": {
+            "count": 10,
+            "hod": 1,
+            "staffRooms": 9
+          },
+          "seminarHalls": {
+            "count": 1,
+            "capacity": 120
+          },
+          "staffRoom": 1,
+          "storageRooms": 2,
+          "serverRoom": 1,
+          "totalRooms": 39
+        },
+        "occupancy": {
+          "totalCapacity": 1500,
+          "averageStudentsPerClassroom": 60,
+          "peakHoursOccupancy": {
+            "roomsOccupied": 24,
+            "totalStudentsPresent": 1000,
+            "utilizationRate": 85
+          },
+          "offPeakOccupancy": {
+            "roomsOccupied": 8,2
+            "totalStudentsPresent": 300,
+            "utilizationRate": 25
+          },
+          "overallOccupancyPercent": 82,
+          "currentStatus": "High Utilization"
+        },
+        "energyProfile": {
+          "baseEnergyLoad": 500,
+          "components": {
+            "classrooms": {
+              "perRoomLoad": 2.0,
+              "totalLoad": 36,
+              "breakdown": {
+                "lighting": 0.8,
+                "fans": 0.6,
+                "projector": 0.4,
+                "ac": 0.2
+              }
+            },
+            "labs": {
+              "perLabLoad": 9.0,
+              "totalLoad": 54,
+              "breakdown": {
+                "computers": 6.0,
+                "ac": 2.0,
+                "lighting": 0.6,
+                "network": 0.4
+              }
+            },
+            "facultyRooms": {
+              "totalLoad": 15,
+              "perRoomLoad": 1.5
+            },
+            "seminarHall": {
+              "totalLoad": 8,
+              "ac": 4,
+              "lighting": 2,
+              "av": 2
+            },
+            "common": {
+              "corridors": 12,
+              "staircases": 4,
+              "washrooms": 3
+            }
+          },
+          "peakLoadKW": 140,
+          "offPeakLoadKW": 45,
+          "dailyConsumptionKWh": 850,
+          "monthlyConsumptionKWh": 25500,
+          "equivalentLoadRating": "Medium-High",
+          "powerBackup": "100 KVA DG Set + UPS"
+        },
+        "maintenance": {
+          "lastMajorRenovation": "2022-06",
+          "lastACMaintenance": "2024-11",
+          "lastElectricalInspection": "2025-01",
+          "maintenanceSchedule": "Quarterly",
+          "criticalEquipment": [
+            "AC Units (12)",
+            "Lab Computers (360)",
+            "Network Infrastructure",
+            "Projectors (18)"
+          ]
+        },
+        "amenities": {
+          "wifi": true,
+          "cctv": true,
+          "fireExtinguishers": 8,
+          "emergencyExits": 4,
+          "elevators": 0,
+          "waterCoolers": 4,
+          "washrooms": {
+            "male": 4,
+            "female": 4
+          }
+        }
+      },
+
+      {
+        "id": "BLK-IT-002",
+        "blockName": "Information Technology Block",
+        "shortName": "IT Block",
+        "blockCode": "IT-BLK",
+        "type": "Academic",
+        "branches": ["Information Technology"],
+        "branchCodes": ["IT"],
+        "constructionYear": 2008,
+        "structure": {
+          "totalFloors": 3,
+          "groundFloor": true,
+          "basementFloors": 0
+        },
+        "rooms": {
+          "classrooms": {
+            "count": 15,
+            "averageCapacity": 55,
+            "totalCapacity": 825
+          },
+          "labs": {
+            "count": 5,
+            "types": [
+              {
+                "name": "Software Engineering Lab",
+                "capacity": 50,
+                "equipment": "50 Desktop PCs"
+              },
+              {
+                "name": "Web Technologies Lab",
+                "capacity": 50,
+                "equipment": "50 Desktop PCs"
+              },
+              {
+                "name": "Mobile App Development Lab",
+                "capacity": 40,
+                "equipment": "40 Desktop PCs + Android Devices"
+              },
+              {
+                "name": "Cloud Computing Lab",
+                "capacity": 45,
+                "equipment": "45 High-spec PCs"
+              },
+              {
+                "name": "Cybersecurity Lab",
+                "capacity": 40,
+                "equipment": "40 PCs with Security Tools"
+              }
+            ],
+            "totalCapacity": 225
+          },
+          "facultyRooms": {
+            "count": 8,
+            "hod": 1,
+            "staffRooms": 7
+          },
+          "totalRooms": 29
+        },
+        "occupancy": {
+          "totalCapacity": 1050,
+          "peakHoursOccupancy": {
+            "roomsOccupied": 19,
+            "totalStudentsPresent": 800,
+            "utilizationRate": 80
+          },
+          "overallOccupancyPercent": 78,
+          "currentStatus": "Optimal"
+        },
+        "energyProfile": {
+          "baseEnergyLoad": 350,
+          "components": {
+            "classrooms": {
+              "perRoomLoad": 1.8,
+              "totalLoad": 27
+            },
+            "labs": {
+              "perLabLoad": 8.0,
+              "totalLoad": 40
+            },
+            "facultyRooms": {
+              "totalLoad": 12
+            },
+            "common": {
+              "corridors": 8,
+              "staircases": 3,
+              "washrooms": 2
+            }
+          },
+          "peakLoadKW": 110,
+          "offPeakLoadKW": 35,
+          "dailyConsumptionKWh": 680,
+          "monthlyConsumptionKWh": 20400,
+          "equivalentLoadRating": "Medium"
+        },
+        "amenities": {
+          "wifi": true,
+          "cctv": true,
+          "fireExtinguishers": 6,
+          "emergencyExits": 3,
+          "waterCoolers": 3,
+          "washrooms": {
+            "male": 3,
+            "female": 3
+          }
+        }
+      },
+
+      {
+        "id": "BLK-ECE-AIDS-003",
+        "blockName": "Electronics & Communication + AI & Data Science Block",
+        "shortName": "ECE-AIDS Block",
+        "blockCode": "ECE-AIDS-BLK",
+        "type": "Academic - Shared",
+        "branches": [
+          "Electronics & Communication Engineering",
+          "Artificial Intelligence & Data Science"
+        ],
+        "branchCodes": ["ECE", "AIDS"],
+        "constructionYear": 2006,
+        "structure": {
+          "totalFloors": 4,
+          "groundFloor": true,
+          "basementFloors": 0
+        },
+        "rooms": {
+          "classrooms": {
+            "count": 16,
+            "averageCapacity": 60,
+            "totalCapacity": 960,
+            "branchWise": {
+              "ECE": 10,
+              "AIDS": 6
+            }
+          },
+          "labs": {
+            "count": 8,
+            "types": [
+              {
+                "name": "Digital Electronics Lab",
+                "branch": "ECE",
+                "capacity": 40,
+                "equipment": "Logic Trainers, Oscilloscopes, Function Generators"
+              },
+              {
+                "name": "Analog Electronics Lab",
+                "branch": "ECE",
+                "capacity": 40,
+                "equipment": "Analog Trainers, Power Supplies, Multimeters"
+              },
+              {
+                "name": "Microprocessors Lab",
+                "branch": "ECE",
+                "capacity": 40,
+                "equipment": "8086/8051 Kits, Embedded Systems"
+              },
+              {
+                "name": "Communication Systems Lab",
+                "branch": "ECE",
+                "capacity": 35,
+                "equipment": "AM/FM Transmitters, Receivers, Spectrum Analyzers"
+              },
+              {
+                "name": "VLSI Lab",
+                "branch": "ECE",
+                "capacity": 40,
+                "equipment": "VLSI Design Software, Xilinx FPGA Boards"
+              },
+              {
+                "name": "Data Science Lab",
+                "branch": "AIDS",
+                "capacity": 50,
+                "equipment": "50 High-spec PCs"
+              },
+              {
+                "name": "Machine Learning Lab",
+                "branch": "AIDS",
+                "capacity": 50,
+                "equipment": "50 GPU-enabled Workstations"
+              },
+              {
+                "name": "Big Data Analytics Lab",
+                "branch": "AIDS",
+                "capacity": 45,
+                "equipment": "Hadoop Cluster, Spark Environment"
+              }
+            ],
+            "totalCapacity": 340
+          },
+          "workshops": {
+            "count": 2,
+            "types": [
+              {
+                "name": "PCB Design Workshop",
+                "capacity": 20,
+                "equipment": "PCB Etching, Soldering Stations"
+              },
+              {
+                "name": "IoT Workshop",
+                "capacity": 25,
+                "equipment": "Arduino, Raspberry Pi, Sensors"
+              }
+            ]
+          },
+          "facultyRooms": {
+            "count": 12,
+            "hod": 2,
+            "staffRooms": 10
+          },
+          "totalRooms": 40
+        },
+        "occupancy": {
+          "totalCapacity": 1345,
+          "peakHoursOccupancy": {
+            "roomsOccupied": 26,
+            "totalStudentsPresent": 1050,
+            "utilizationRate": 86
+          },
+          "overallOccupancyPercent": 85,
+          "currentStatus": "High Utilization"
+        },
+        "energyProfile": {
+          "baseEnergyLoad": 600,
+          "components": {
+            "classrooms": {
+              "totalLoad": 32
+            },
+            "electronicsLabs": {
+              "perLabLoad": 11,
+              "totalLoad": 55
+            },
+            "computingLabs": {
+              "perLabLoad": 12,
+              "totalLoad": 36
+            },
+            "workshops": {
+              "totalLoad": 15
+            },
+            "common": {
+              "corridors": 15,
+              "staircases": 5,
+              "washrooms": 4
+            }
+          },
+          "peakLoadKW": 180,
+          "offPeakLoadKW": 50,
+          "dailyConsumptionKWh": 1100,
+          "monthlyConsumptionKWh": 33000,
+          "equivalentLoadRating": "High"
+        },
+        "amenities": {
+          "wifi": true,
+          "cctv": true,
+          "fireExtinguishers": 10,
+          "emergencyExits": 4,
+          "waterCoolers": 4,
+          "washrooms": {
+            "male": 4,
+            "female": 4
+          }
+        }
+      },
+
+      {
+        "id": "BLK-MECH-AIML-004",
+        "blockName": "Mechanical & AI-ML Block",
+        "shortName": "Mech-AIML Block",
+        "blockCode": "MECH-AIML-BLK",
+        "type": "Academic + Workshop - Shared",
+        "branches": [
+          "Mechanical Engineering",
+          "Artificial Intelligence & Machine Learning"
+        ],
+        "branchCodes": ["MECH", "AIML"],
+        "constructionYear": 2004,
+        "structure": {
+          "totalFloors": 3,
+          "groundFloor": true,
+          "basementFloors": 0
+        },
+        "rooms": {
+          "classrooms": {
+            "count": 12,
+            "averageCapacity": 60,
+            "totalCapacity": 720,
+            "branchWise": {
+              "MECH": 8,
+              "AIML": 4
+            }
+          },
+          "labs": {
+            "count": 6,
+            "types": [
+              {
+                "name": "Manufacturing Processes Lab",
+                "branch": "MECH",
+                "capacity": 30,
+                "equipment": "Lathe, Milling, Drilling Machines"
+              },
+              {
+                "name": "Thermal Engineering Lab",
+                "branch": "MECH",
+                "capacity": 30,
+                "equipment": "IC Engines, Boilers, Heat Transfer Equipment"
+              },
+              {
+                "name": "Fluid Mechanics Lab",
+                "branch": "MECH",
+                "capacity": 30,
+                "equipment": "Flow Meters, Pumps, Turbines"
+              },
+              {
+                "name": "CAD/CAM Lab",
+                "branch": "MECH",
+                "capacity": 40,
+                "equipment": "40 Workstations with AutoCAD, SolidWorks, ANSYS"
+              },
+              {
+                "name": "Deep Learning Lab",
+                "branch": "AIML",
+                "capacity": 45,
+                "equipment": "45 GPU Workstations"
+              },
+              {
+                "name": "Computer Vision Lab",
+                "branch": "AIML",
+                "capacity": 40,
+                "equipment": "Cameras, GPUs, Image Processing Tools"
+              }
+            ],
+            "totalCapacity": 215
+          },
+          "heavyWorkshops": {
+            "count": 4,
+            "types": [
+              {
+                "name": "Machine Shop",
+                "equipment": "Lathe (10), Milling (5), Drilling (8)",
+                "capacity": 30,
+                "powerLoad": 50
+              },
+              {
+                "name": "Welding Shop",
+                "equipment": "Arc Welding (15), Gas Welding (10)",
+                "capacity": 25,
+                "powerLoad": 40
+              },
+              {
+                "name": "Foundry Shop",
+                "equipment": "Furnaces, Molding Equipment",
+                "capacity": 20,
+                "powerLoad": 60
+              },
+              {
+                "name": "Fitting Shop",
+                "equipment": "Benches, Hand Tools, Measuring Instruments",
+                "capacity": 30,
+                "powerLoad": 15
+              }
+            ]
+          },
+          "facultyRooms": {
+            "count": 10,
+            "hod": 2,
+            "staffRooms": 8
+          },
+          "totalRooms": 34
+        },
+        "occupancy": {
+          "totalCapacity": 1100,
+          "peakHoursOccupancy": {
+            "roomsOccupied": 22,
+            "totalStudentsPresent": 850,
+            "utilizationRate": 78
+          },
+          "workshopBatchSize": 28,
+          "overallOccupancyPercent": 75,
+          "currentStatus": "Optimal"
+        },
+        "energyProfile": {
+          "baseEnergyLoad": 800,
+          "components": {
+            "classrooms": {
+              "totalLoad": 24
+            },
+            "computingLabs": {
+              "totalLoad": 30
+            },
+            "thermalLabs": {
+              "totalLoad": 15
+            },
+            "heavyWorkshops": {
+              "perWorkshopLoad": 35,
+              "totalLoad": 165
+            },
+            "common": {
+              "corridors": 10,
+              "staircases": 4,
+              "washrooms": 3
+            }
+          },
+          "peakLoadKW": 300,
+          "offPeakLoadKW": 70,
+          "dailyConsumptionKWh": 1800,
+          "monthlyConsumptionKWh": 54000,
+          "equivalentLoadRating": "Very High"
+        },
+        "amenities": {
+          "wifi": true,
+          "cctv": true,
+          "fireExtinguishers": 12,
+          "emergencyExits": 4,
+          "waterCoolers": 4,
+          "washrooms": {
+            "male": 4,
+            "female": 3
+          },
+          "safetyEquipment": {
+            "helmets": 50,
+            "gloves": 100,
+            "aprons": 50,
+            "goggles": 80
+          }
+        }
+      },
+
+      {
+        "id": "BLK-CIVIL-005",
+        "blockName": "Civil Engineering Block",
+        "shortName": "Civil Block",
+        "blockCode": "CIVIL-BLK",
+        "type": "Academic + Structural Labs",
+        "branches": ["Civil Engineering"],
+        "branchCodes": ["CIVIL"],
+        "constructionYear": 2003,
+        "structure": {
+          "totalFloors": 3,
+          "groundFloor": true,
+          "basementFloors": 0
+        },
+        "rooms": {
+          "classrooms": {
+            "count": 14,
+            "averageCapacity": 55,
+            "totalCapacity": 770
+          },
+          "labs": {
+            "count": 7,
+            "types": [
+              {
+                "name": "Surveying Lab",
+                "capacity": 30,
+                "equipment": "Theodolites, Total Stations, Leveling Instruments"
+              },
+              {
+                "name": "Strength of Materials Lab",
+                "capacity": 30,
+                "equipment": "UTM, Compression Testing, Impact Testing"
+              },
+              {
+                "name": "Concrete Technology Lab",
+                "capacity": 25,
+                "equipment": "Concrete Mixers, Compression Machines, Slump Test"
+              },
+              {
+                "name": "Soil Mechanics Lab",
+                "capacity": 25,
+                "equipment": "Triaxial Test, Direct Shear, Consolidation"
+              },
+              {
+                "name": "Hydraulics Lab",
+                "capacity": 30,
+                "equipment": "Flow Channels, Pumps, Turbines"
+              },
+              {
+                "name": "Environmental Engineering Lab",
+                "capacity": 25,
+                "equipment": "Water Testing, BOD, COD Equipment"
+              },
+              {
+                "name": "CAD Lab",
+                "capacity": 40,
+                "equipment": "40 PCs with AutoCAD, Revit, STAAD Pro"
+              }
+            ],
+            "totalCapacity": 205
+          },
+          "facultyRooms": {
+            "count": 9,
+            "hod": 1,
+            "staffRooms": 8
+          },
+          "totalRooms": 31
+        },
+        "occupancy": {
+          "totalCapacity": 975,
+          "peakHoursOccupancy": {
+            "roomsOccupied": 20,
+            "totalStudentsPresent": 750,
+            "utilizationRate": 75
+          },
+          "overallOccupancyPercent": 72,
+          "currentStatus": "Optimal"
+        },
+        "energyProfile": {
+          "baseEnergyLoad": 450,
+          "components": {
+            "classrooms": {
+              "totalLoad": 25
+            },
+            "structuralLabs": {
+              "perLabLoad": 12,
+              "totalLoad": 72
+            },
+            "cadLab": {
+              "totalLoad": 15
+            },
+            "common": {
+              "corridors": 9,
+              "staircases": 3,
+              "washrooms": 3
+            }
+          },
+          "peakLoadKW": 160,
+          "offPeakLoadKW": 40,
+          "dailyConsumptionKWh": 950,
+          "monthlyConsumptionKWh": 28500,
+          "equivalentLoadRating": "Medium-High"
+        },
+        "amenities": {
+          "wifi": true,
+          "cctv": true,
+          "fireExtinguishers": 8,
+          "emergencyExits": 3,
+          "waterCoolers": 3,
+          "washrooms": {
+            "male": 3,
+            "female": 3
+          }
+        }
+      },
+
+      {
+        "id": "BLK-EEE-006",
+        "blockName": "Electrical & Electronics Engineering Block",
+        "shortName": "EEE Block",
+        "blockCode": "EEE-BLK",
+        "type": "Academic",
+        "branches": ["Electrical & Electronics Engineering"],
+        "branchCodes": ["EEE"],
+        "constructionYear": 2005,
+        "structure": {
+          "totalFloors": 4,
+          "groundFloor": true,
+          "basementFloors": 0
+        },
+        "rooms": {
+          "classrooms": {
+            "count": 14,
+            "averageCapacity": 60,
+            "totalCapacity": 840
+          },
+          "labs": {
+            "count": 8,
+            "types": [
+              {
+                "name": "Electrical Machines Lab",
+                "capacity": 30,
+                "equipment": "DC Motors, Transformers, Alternators"
+              },
+              {
+                "name": "Power Electronics Lab",
+                "capacity": 30,
+                "equipment": "Thyristor Circuits, Converters, Inverters"
+              },
+              {
+                "name": "Power Systems Lab",
+                "capacity": 30,
+                "equipment": "Relay Testing, Load Flow Analysis"
+              },
+              {
+                "name": "Control Systems Lab",
+                "capacity": 30,
+                "equipment": "PID Controllers, MATLAB Simulink"
+              },
+              {
+                "name": "Electrical Measurements Lab",
+                "capacity": 30,
+                "equipment": "CRO, Multimeters, Watt Meters"
+              },
+              {
+                "name": "Renewable Energy Lab",
+                "capacity": 25,
+                "equipment": "Solar Panels, Wind Turbine Models"
+              },
+              {
+                "name": "High Voltage Lab",
+                "capacity": 20,
+                "equipment": "High Voltage Testing Equipment"
+              },
+              {
+                "name": "PLC & SCADA Lab",
+                "capacity": 35,
+                "equipment": "PLCs, HMI Panels, SCADA Software"
+              }
+            ],
+            "totalCapacity": 230
+          },
+          "facultyRooms": {
+            "count": 12,
+            "hod": 1,
+            "staffRooms": 11
+          },
+          "totalRooms": 35
+        },
+        "occupancy": {
+          "totalCapacity": 1070,
+          "peakHoursOccupancy": {
+            "roomsOccupied": 23,
+            "totalStudentsPresent": 900,
+            "utilizationRate": 82
+          },
+          "overallOccupancyPercent": 80,
+          "currentStatus": "High Utilization"
+        },
+        "energyProfile": {
+          "baseEnergyLoad": 700,
+          "components": {
+            "classrooms": {
+              "totalLoad": 28
+            },
+            "electricalMachinesLab": {
+              "perLabLoad": 20,
+              "totalLoad": 140
+            },
+            "powerElectronicsLab": {
+              "totalLoad": 25
+            },
+            "highVoltageLab": {
+              "totalLoad": 30
+            },
+            "common": {
+              "corridors": 12,
+              "staircases": 4,
+              "washrooms": 4
+            }
+          },
+          "peakLoadKW": 250,
+          "offPeakLoadKW": 60,
+          "dailyConsumptionKWh": 1500,
+          "monthlyConsumptionKWh": 45000,
+          "equivalentLoadRating": "High"
+        },
+        "amenities": {
+          "wifi": true,
+          "cctv": true,
+          "fireExtinguishers": 10,
+          "emergencyExits": 4,
+          "waterCoolers": 4,
+          "washrooms": {
+            "male": 4,
+            "female": 4
+          },
+          "safetyEquipment": {
+            "insulatingGloves": 30,
+            "safetyShoes": 40,
+            "helmets": 30
+          }
+        }
+      },
+
+      {
+        "id": "BLK-AIML-NEW-007",
+        "blockName": "New AI & Machine Learning Block",
+        "shortName": "New AIML Block",
+        "blockCode": "AIML-NEW-BLK",
+        "type": "Academic",
+        "branches": ["Artificial Intelligence & Machine Learning"],
+        "branchCodes": ["AIML"],
+        "constructionYear": 2024,
+        "status": "Ready - Not Yet Operational",
+        "structure": {
+          "totalFloors": 4,
+          "groundFloor": true,
+          "basementFloors": 0,
+          "elevatorReady": true
+        },
+        "plannedRooms": {
+          "classrooms": {
+            "count": 12,
+            "averageCapacity": 60,
+            "totalCapacity": 720
+          },
+          "labs": {
+            "count": 5,
+            "types": [
+              "Advanced ML Lab",
+              "Deep Learning Lab",
+              "NLP Lab",
+              "Computer Vision Lab",
+              "Robotics & AI Lab"
+            ],
+            "totalPlannedCapacity": 200
+          },
+          "facultyRooms": 10,
+          "researchCenter": 1,
+          "totalRooms": 29
+        },
+        "occupancy": {
+          "currentOccupancyPercent": 0,
+          "currentStatus": "Inactive - Awaiting Inauguration"
+        },
+        "energyProfile": {
+          "baseEnergyLoad": 0,
+          "plannedPeakLoadKW": 180,
+          "equivalentLoadRating": "Inactive",
+          "infrastructureReady": true,
+          "powerBackup": "150 KVA DG Set Installed"
+        },
+        "amenities": {
+          "wifi": "Infrastructure Ready",
+          "cctv": "Installed",
+          "fireExtinguishers": 12,
+          "emergencyExits": 4,
+          "elevators": 1,
+          "waterCoolers": "Ready to Install",
+          "washrooms": {
+            "male": 4,
+            "female": 4
+          }
+        }
+      }
+    ],
+
+    "centralFacilities": [
+      {
+        "id": "FAC-ADMIN-001",
+        "facilityName": "Administrative Block",
+        "facilityCode": "ADMIN-BLK",
+        "type": "Administrative",
+        "constructionYear": 2000,
+        "structure": {
+          "totalFloors": 2,
+          "groundFloor": true
+        },
+        "offices": [
+          {
+            "name": "Principal Office",
+            "floor": 2,
+            "occupancy": 5
+          },
+          {
+            "name": "Vice Principal Office",
+            "floor": 2,
+            "occupancy": 3
+          },
+          {
+            "name": "Registrar Office",
+            "floor": 1,
+            "occupancy": 4
+          },
+          {
+            "name": "Examination Section",
+            "floor": 1,
+            "occupancy": 8
+          },
+          {
+            "name": "Accounts Section",
+            "floor": 1,
+            "occupancy": 6
+          },
+          {
+            "name": "Admissions Office",
+            "floor": 1,
+            "occupancy": 5
+          },
+          {
+            "name": "HR Department",
+            "floor": 2,
+            "occupancy": 4
+          },
+          {
+            "name": "Board Room",
+            "floor": 2,
+            "capacity": 30
+          }
+        ],
+        "totalStaff": 35,
+        "energyProfile": {
+          "baseEnergyLoad": 150,
+          "components": {
+            "offices": 30,
+            "ac": 15,
+            "computers": 8,
+            "lighting": 5,
+            "common": 2
+          },
+          "peakLoadKW": 55,
+          "dailyConsumptionKWh": 350,
+          "monthlyConsumptionKWh": 10500,
+          "equivalentLoadRating": "Low"
+        },
+        "amenities": {
+          "wifi": true,
+          "cctv": true,
+          "fireExtinguishers": 6,
+          "waterCoolers": 2,
+          "washrooms": {
+            "male": 2,
+            "female": 2
+          }
+        }
+      },
+
+      {
+        "id": "FAC-LIBRARY-002",
+        "facilityName": "Central Library",
+        "facilityCode": "LIB-CENT",
+        "type": "Library",
+        "constructionYear": 2002,
+        "structure": {
+          "totalFloors": 3,
+          "groundFloor": true,
+          "basementFloors": 0
+        },
+        "facilities": {
+          "readingHalls": {
+            "count": 3,
+            "totalSeatingCapacity": 500,
+            "floor1": 180,
+            "floor2": 180,
+            "floor3": 140
+          },
+          "digitalLibraryLabs": {
+            "count": 2,
+            "computers": 100,
+            "capacity": 100
+          },
+          "referenceSection": {
+            "capacity": 80
+          },
+          "journalSection": {
+            "capacity": 40
+          },
+          "discussionRooms": {
+            "count": 4,
+            "capacityEach": 10
+          },
+          "bookCollection": {
+            "totalBooks": 45000,
+            "journals": 120,
+            "magazines": 50,
+            "eBooks": 15000
+          }
+        },
+        "operationalHours": {
+          "weekdays": "8:00 AM - 8:00 PM",
+          "weekends": "9:00 AM - 5:00 PM"
+        },
+        "staff": {
+          "librarian": 1,
+          "assistantLibrarians": 3,
+          "supportStaff": 5,
+          "total": 9
+        },
+        "energyProfile": {
+          "baseEnergyLoad": 400,
+          "components": {
+            "lighting": 30,
+            "ac": 60,
+            "computers": 20,
+            "common": 10
+          },
+          "peakLoadKW": 120,
+          "dailyConsumptionKWh": 750,
+          "monthlyConsumptionKWh": 22500,
+          "equivalentLoadRating": "Medium-High"
+        },
+        "amenities": {
+          "wifi": true,
+          "cctv": true,
+          "fireExtinguishers": 10,
+          "emergencyExits": 3,
+          "waterCoolers": 4,
+          "washrooms": {
+            "male": 3,
+            "female": 3
+          },
+          "printingFacility": true,
+          "photocopying": true
+        }
+      },
+
+      {
+        "id": "FAC-AUDITORIUM-003",
+        "facilityName": "Main Auditorium",
+        "facilityCode": "AUD-MAIN",
+        "type": "Auditorium",
+        "seatingCapacity": 500,
+        "stage": true,
+        "acFacility": true,
+        "audioVisual": "Professional PA System, Projector, LED Screen",
+        "greenRooms": 2,
+        "energyProfile": {
+          "peakLoadKW": 80,
+          "equivalentLoadRating": "Medium"
+        }
+      },
+
+      {
+        "id": "FAC-CANTEEN-004",
+        "facilityName": "Central Canteen",
+        "facilityCode": "CANT-CENT",
+        "type": "Dining",
+        "seatingCapacity": 300,
+        "kitchenArea": "Large Commercial Kitchen",
+        "operationalHours": "7:00 AM - 7:00 PM",
+        "energyProfile": {
+          "peakLoadKW": 100,
+          "equivalentLoadRating": "Medium-High"
+        }
+      },
+
+      {
+        "id": "FAC-SPORTS-005",
+        "facilityName": "Sports Complex",
+        "facilityCode": "SPORTS",
+        "type": "Sports",
+        "facilities": [
+          {
+            "name": "Indoor Stadium",
+            "sports": ["Badminton", "Table Tennis", "Chess"],
+            "capacity": 200
+          },
+          {
+            "name": "Outdoor Grounds",
+            "facilities": ["Cricket Ground", "Football Field", "Volleyball Courts", "Basketball Courts", "Tennis Courts", "400m Running Track"]
+          },
+          {
+            "name": "Gymnasium",
+            "equipment": "Modern Fitness Equipment",
+            "capacity": 50
+          }
+        ],
+        "energyProfile": {
+          "peakLoadKW": 60,
+          "equivalentLoadRating": "Medium"
+        }
+      }
+    ],
+
+    "centralWorkshops": [
+      {
+        "id": "WS-MECH-001",
+        "workshopName": "Mechanical Main Workshop",
+        "workshopCode": "WS-MECH-MAIN",
+        "type": "Heavy Machinery Workshop",
+        "area": "Large Industrial Space",
+        "machines": [
+          {
+            "type": "Lathe Machines",
+            "count": 15,
+            "capacity": "30 students",
+            "powerPerUnit": 5
+          },
+          {
+            "type": "Milling Machines",
+            "count": 8,
+            "capacity": "16 students",
+            "powerPerUnit": 7
+          },
+          {
+            "type": "Drilling Machines",
+            "count": 12,
+            "capacity": "24 students",
+            "powerPerUnit": 3
+          },
+          {
+            "type": "Grinding Machines",
+            "count": 6,
+            "capacity": "12 students",
+            "powerPerUnit": 4
+          },
+          {
+            "type": "CNC Machines",
+            "count": 3,
+            "capacity": "6 students",
+            "powerPerUnit": 12
+          },
+          {
+            "type": "Welding Stations",
+            "count": 20,
+            "capacity": "20 students",
+            "powerPerUnit": 6
+          }
+        ],
+        "totalCapacity": 108,
+        "safetyGear": {
+          "helmets": 80,
+          "gloves": 150,
+          "aprons": 100,
+          "goggles": 120,
+          "earplugs": 100
+        },
+        "energyProfile": {
+          "peakLoadKW": 300,
+          "offPeakLoadKW": 80,
+          "dailyConsumptionKWh": 1800,
+          "monthlyConsumptionKWh": 54000,
+          "equivalentLoadRating": "Very High"
+        },
+        "operationalHours": "9:00 AM - 5:00 PM",
+        "staff": {
+          "workshopSuperintendent": 1,
+          "technicians": 6,
+          "helpers": 4
+        },
+        "amenities": {
+          "firstAid": true,
+          "fireSafety": "Industrial Grade Extinguishers (15)",
+          "ventilation": "Heavy Duty Exhaust System",
+          "emergencyExits": 4
+        }
+      },
+
+      {
+        "id": "WS-ELEC-002",
+        "workshopName": "Electrical Machines Workshop",
+        "workshopCode": "WS-ELEC-MAIN",
+        "type": "Electrical Equipment Workshop",
+        "machines": [
+          {
+            "type": "DC Motor Test Rigs",
+            "count": 8,
+            "powerPerUnit": 10
+          },
+          {
+            "type": "Transformer Test Setups",
+            "count": 6,
+            "powerPerUnit": 15
+          },
+          {
+            "type": "AC Machine Test Rigs",
+            "count": 6,
+            "powerPerUnit": 12
+          },
+          {
+            "type": "High Voltage Testing Setup",
+            "count": 2,
+            "powerPerUnit": 40
+          }
+        ],
+        "totalCapacity": 60,
+        "energyProfile": {
+          "peakLoadKW": 220,
+          "equivalentLoadRating": "High"
+        },
+        "safetyEquipment": {
+          "insulatingGloves": 50,
+          "safetyShoes": 60,
+          "helmets": 50
+        }
+      },
+
+      {
+        "id": "WS-ELECTRONICS-003",
+        "workshopName": "Electronics Fabrication Workshop",
+        "workshopCode": "WS-ELEC-FAB",
+        "type": "PCB & Electronics Workshop",
+        "facilities": [
+          "PCB Etching Stations",
+          "Soldering Benches (30)",
+          "Component Testing Area",
+          "SMD Assembly Area"
+        ],
+        "totalCapacity": 50,
+        "energyProfile": {
+          "peakLoadKW": 40,
+          "equivalentLoadRating": "Medium"
+        }
+      }
+    ],
+
+    "hostels": {
+      "boys": [
+        {
+          "id": "HOST-B-VIN-001",
+          "hostelName": "Vindhya",
+          "hostelCode": "HOST-VINDHYA",
+          "type": "Boys Hostel",
+          "constructionYear": 1998,
+          "note": "Oldest Block - Hostel Staff Quarters",
+          "structure": {
+            "totalFloors": 4,
+            "groundFloor": true,
+            "basementFloors": 0
+          },
+          "rooms": {
+            "studentRooms": {
+              "singleOccupancy": 10,
+              "doubleOccupancy": 80,
+              "tripleOccupancy": 40,
+              "totalRooms": 130
+            },
+            "staffQuarters": {
+              "warden": 1,
+              "assistants": 3,
+              "security": 2
+            },
+            "common": {
+              "tvRoom": 1,
+              "readingRoom": 1,
+              "gymRoom": 1,
+              "messHall": 1
+            }
+          },
+          "capacity": {
+            "totalBeds": 300,
+            "currentOccupancy": 285,
+            "occupancyPercent": 95,
+            "vacantBeds": 15
+          },
+          "amenities": {
+            "wifi": true,
+            "hotWater": "Solar + Electric",
+            "laundry": true,
+            "security": "24/7 with CCTV",
+            "commonTV": 2,
+            "waterCoolers": 8,
+            "emergencyExits": 4
+          },
+          "energyProfile": {
+            "baseEnergyLoad": 450,
+            "components": {
+              "rooms": 80,
+              "lighting": 30,
+              "fans": 40,
+              "geysers": 50,
+              "common": 20
+            },
+            "peakLoadKW": 180,
+            "offPeakLoadKW": 50,
+            "dailyConsumptionKWh": 1100,
+            "monthlyConsumptionKWh": 33000,
+            "equivalentLoadRating": "High"
+          }
+        },
+
+        {
+          "id": "HOST-B-ARA-002",
+          "hostelName": "Aravali",
+          "hostelCode": "HOST-ARAVALI",
+          "type": "Boys Hostel",
+          "constructionYear": 2005,
+          "structure": {
+            "totalFloors": 4,
+            "groundFloor": true
+          },
+          "rooms": {
+            "studentRooms": {
+              "singleOccupancy": 8,
+              "doubleOccupancy": 75,
+              "tripleOccupancy": 35,
+              "totalRooms": 118
+            },
+            "common": {
+              "tvRoom": 1,
+              "readingRoom": 1,
+              "gymRoom": 1,
+              "messHall": 1
+            }
+          },
+          "capacity": {
+            "totalBeds": 280,
+            "currentOccupancy": 265,
+            "occupancyPercent": 95,
+            "vacantBeds": 15
+          },
+          "amenities": {
+            "wifi": true,
+            "hotWater": "Solar + Electric",
+            "laundry": true,
+            "security": "24/7 with CCTV",
+            "waterCoolers": 8,
+            "emergencyExits": 4
+          },
+          "energyProfile": {
+            "peakLoadKW": 170,
+            "dailyConsumptionKWh": 1050,
+            "monthlyConsumptionKWh": 31500,
+            "equivalentLoadRating": "High"
+          }
+        },
+
+        {
+          "id": "HOST-B-NIL-003",
+          "hostelName": "Nilgiri",
+          "hostelCode": "HOST-NILGIRI",
+          "type": "Boys Hostel",
+          "constructionYear": 2008,
+          "structure": {
+            "totalFloors": 4,
+            "groundFloor": true
+          },
+          "rooms": {
+            "studentRooms": {
+              "singleOccupancy": 5,
+              "doubleOccupancy": 70,
+              "tripleOccupancy": 30,
+              "totalRooms": 105
+            },
+            "common": {
+              "tvRoom": 1,
+              "readingRoom": 1,
+              "gymRoom": 1,
+              "messHall": 1
+            }
+          },
+          "capacity": {
+            "totalBeds": 260,
+            "currentOccupancy": 245,
+            "occupancyPercent": 94,
+            "vacantBeds": 15
+          },
+          "amenities": {
+            "wifi": true,
+            "hotWater": "Solar + Electric",
+            "laundry": true,
+            "security": "24/7 with CCTV",
+            "waterCoolers": 8,
+            "emergencyExits": 4
+          },
+          "energyProfile": {
+            "peakLoadKW": 165,
+            "dailyConsumptionKWh": 1000,
+            "monthlyConsumptionKWh": 30000,
+            "equivalentLoadRating": "High"
+          }
+        },
+
+        {
+          "id": "HOST-B-SAT-004",
+          "hostelName": "Satpura",
+          "hostelCode": "HOST-SATPURA",
+          "type": "Boys Hostel",
+          "constructionYear": 2010,
+          "structure": {
+            "totalFloors": 4,
+            "groundFloor": true
+          },
+          "rooms": {
+            "studentRooms": {
+              "singleOccupancy": 5,
+              "doubleOccupancy": 65,
+              "tripleOccupancy": 25,
+              "totalRooms": 95
+            },
+            "common": {
+              "tvRoom": 1,
+              "readingRoom": 1,
+              "gymRoom": 1,
+              "messHall": 1
+            }
+          },
+          "capacity": {
+            "totalBeds": 240,
+            "currentOccupancy": 225,
+            "occupancyPercent": 94,
+            "vacantBeds": 15
+          },
+          "amenities": {
+            "wifi": true,
+            "hotWater": "Solar + Electric",
+            "laundry": true,
+            "security": "24/7 with CCTV",
+            "waterCoolers": 8,
+            "emergencyExits": 4
+          },
+          "energyProfile": {
+            "peakLoadKW": 160,
+            "dailyConsumptionKWh": 950,
+            "monthlyConsumptionKWh": 28500,
+            "equivalentLoadRating": "Medium-High"
+          }
+        },
+
+        {
+          "id": "HOST-B-HIM-005",
+          "hostelName": "Himalaya",
+          "hostelCode": "HOST-HIMALAYA",
+          "type": "Boys Hostel",
+          "constructionYear": 2012,
+          "structure": {
+            "totalFloors": 4,
+            "groundFloor": true
+          },
+          "rooms": {
+            "studentRooms": {
+              "singleOccupancy": 8,
+              "doubleOccupancy": 72,
+              "tripleOccupancy": 28,
+              "totalRooms": 108
+            },
+            "common": {
+              "tvRoom": 1,
+              "readingRoom": 1,
+              "gymRoom": 1,
+              "messHall": 1
+            }
+          },
+          "capacity": {
+            "totalBeds": 270,
+            "currentOccupancy": 255,
+            "occupancyPercent": 94,
+            "vacantBeds": 15
+          },
+          "amenities": {
+            "wifi": true,
+            "hotWater": "Solar + Electric",
+            "laundry": true,
+            "security": "24/7 with CCTV",
+            "waterCoolers": 8,
+            "emergencyExits": 4
+          },
+          "energyProfile": {
+            "peakLoadKW": 175,
+            "dailyConsumptionKWh": 1050,
+            "monthlyConsumptionKWh": 31500,
+            "equivalentLoadRating": "High"
+          }
+        }
+      ],
+
+      "girls": [
+        {
+          "id": "HOST-G-NAG-001",
+          "hostelName": "Nagavali",
+          "hostelCode": "HOST-NAGAVALI",
+          "type": "Girls Hostel",
+          "constructionYear": 2006,
+          "structure": {
+            "totalFloors": 4,
+            "groundFloor": true
+          },
+          "rooms": {
+            "studentRooms": {
+              "singleOccupancy": 10,
+              "doubleOccupancy": 60,
+              "tripleOccupancy": 30,
+              "totalRooms": 100
+            },
+            "wardenQuarters": 2,
+            "common": {
+              "tvRoom": 1,
+              "readingRoom": 1,
+              "gymRoom": 1,
+              "messHall": 1,
+              "prayerRoom": 1
+            }
+          },
+          "capacity": {
+            "totalBeds": 240,
+            "currentOccupancy": 230,
+            "occupancyPercent": 96,
+            "vacantBeds": 10
+          },
+          "security": {
+            "femaleWardens": 2,
+            "femaleSecurity": "24/7",
+            "cctv": true,
+            "biometricEntry": true
+          },
+          "amenities": {
+            "wifi": true,
+            "hotWater": "Solar + Electric",
+            "laundry": true,
+            "commonTV": 2,
+            "waterCoolers": 8,
+            "emergencyExits": 4,
+            "medicalRoom": 1
+          },
+          "energyProfile": {
+            "peakLoadKW": 150,
+            "dailyConsumptionKWh": 920,
+            "monthlyConsumptionKWh": 27600,
+            "equivalentLoadRating": "Medium-High"
+          }
+        },
+
+        {
+          "id": "HOST-G-VAM-002",
+          "hostelName": "Vamsadhara",
+          "hostelCode": "HOST-VAMSADHARA",
+          "type": "Girls Hostel",
+          "constructionYear": 2010,
+          "structure": {
+            "totalFloors": 4,
+            "groundFloor": true
+          },
+          "rooms": {
+            "studentRooms": {
+              "singleOccupancy": 8,
+              "doubleOccupancy": 58,
+              "tripleOccupancy": 28,
+              "totalRooms": 94
+            },
+            "wardenQuarters": 2,
+            "common": {
+              "tvRoom": 1,
+              "readingRoom": 1,
+              "gymRoom": 1,
+              "messHall": 1,
+              "prayerRoom": 1
+            }
+          },
+          "capacity": {
+            "totalBeds": 230,
+            "currentOccupancy": 220,
+            "occupancyPercent": 96,
+            "vacantBeds": 10
+          },
+          "security": {
+            "femaleWardens": 2,
+            "femaleSecurity": "24/7",
+            "cctv": true,
+            "biometricEntry": true
+          },
+          "amenities": {
+            "wifi": true,
+            "hotWater": "Solar + Electric",
+            "laundry": true,
+            "commonTV": 2,
+            "waterCoolers": 8,
+            "emergencyExits": 4,
+            "medicalRoom": 1
+          },
+          "energyProfile": {
+            "peakLoadKW": 145,
+            "dailyConsumptionKWh": 880,
+            "monthlyConsumptionKWh": 26400,
+            "equivalentLoadRating": "Medium-High"
+          }
+        }
+      ],
+
+      "summary": {
+        "totalHostelBlocks": 7,
+        "boysHostels": 5,
+        "girlsHostels": 2,
+        "totalBeds": 1820,
+        "totalOccupied": 1725,
+        "totalVacant": 95,
+        "overallOccupancyPercent": 95,
+        "totalHostelEnergyLoadKW": 1145,
+        "totalMonthlyConsumptionKWh": 208500
+      }
+    }
+  },
+
+  "campusSummary": {
+    "totalAcademicBlocks": 7,
+    "totalCentralFacilities": 5,
+    "totalWorkshops": 3,
+    "totalHostels": 7,
+    "totalInfrastructureUnits": 22,
+    "totalStudentCapacity": {
+      "academic": 7500,
+      "hostel": 1820
+    },
+    "totalEnergyConsumption": {
+      "academicBlocksPeakKW": 1380,
+      "centralFacilitiesPeakKW": 415,
+      "workshopsPeakKW": 560,
+      "hostelsPeakKW": 1145,
+      "totalCampusPeakLoadKW": 3500,
+      "estimatedMonthlyConsumptionKWh": 750000,
+      "equivalentLoadRating": "Very High"
+    },
+    "maintenanceStatus": {
+      "criticalEquipment": 280,
+      "scheduledMaintenancePerMonth": 25,
+      "lastCampusAudit": "2024-12"
+    }
+  }
+}
