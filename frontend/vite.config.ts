@@ -30,14 +30,6 @@ export default defineConfig({
           if (id.includes('lucide-react')) {
             return 'vendor-icons'
           }
-          // React core
-          if (id.includes('react-dom') || id.includes('react-router')) {
-            return 'vendor-react'
-          }
-          // Other node_modules
-          if (id.includes('node_modules')) {
-            return 'vendor-utils'
-          }
         },
       },
     },
