@@ -1,7 +1,7 @@
+/// <reference path="./types/express.d.ts" />
 import cors from 'cors'
 import dotenv from 'dotenv'
 import express, { type Request, type Response } from 'express'
-import './types/express'
 import sequelize from './config/database'
 import './models'
 import User from './models/User'
