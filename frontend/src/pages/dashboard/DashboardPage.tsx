@@ -326,11 +326,9 @@ export default function DashboardPage() {
     void loadOperational()
   }, [])
 
-  // Smooth KPI animation: keep dashboard values moving (realistic live feel)
+  // Throttled KPI animation at 500ms — replaces 60fps RAF loop (saves ~97% CPU)
   useEffect(() => {
-    let raf = 0
     let alive = true
-
     const drift = {
       students: displayStudents,
       occupancy: displayOccupancyRate,
@@ -339,36 +337,30 @@ export default function DashboardPage() {
 
     const tick = () => {
       if (!alive) return
-
       const baseStudents = liveStudents ?? 0
       const baseOcc = safeNumber(summary?.currentOccupancyRate, 0)
       const basePower = liveEnergyTotal
-
       const t = Date.now() / 1000
       const wobble1 = Math.sin(t / 3.5) * 0.012
       const wobble2 = Math.sin(t / 7.2 + 1.8) * 0.008
-
       const targetStudents = Math.max(0, Math.round(baseStudents * (1 + wobble1) + Math.sin(t / 5.2) * 8))
       const targetOcc = Math.max(0, Math.min(100, baseOcc * (1 + wobble2) + Math.sin(t / 4.8) * 0.6))
       const targetPower = Math.max(0, basePower * (1 + wobble1 * 0.7 + wobble2 * 0.5))
-
-      const smooth = 0.08
-      drift.students = drift.students + (targetStudents - drift.students) * smooth
-      drift.occupancy = drift.occupancy + (targetOcc - drift.occupancy) * smooth
-      drift.power = drift.power + (targetPower - drift.power) * smooth
-
+      const smooth = 0.18
+      drift.students += (targetStudents - drift.students) * smooth
+      drift.occupancy += (targetOcc - drift.occupancy) * smooth
+      drift.power += (targetPower - drift.power) * smooth
       setDisplayStudents(Math.round(drift.students))
       setDisplayOccupancyRate(Math.round(drift.occupancy * 10) / 10)
       setDisplayPowerLoad(Math.round(drift.power))
-
-      raf = requestAnimationFrame(tick)
     }
 
-    raf = requestAnimationFrame(tick)
+    const id = window.setInterval(tick, 500)
     return () => {
       alive = false
-      cancelAnimationFrame(raf)
+      window.clearInterval(id)
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [liveStudents, liveEnergyTotal, summary])
 
   useEffect(() => {

@@ -112,18 +112,15 @@ export default function Sidebar({ variant = 'desktop', open = false, onClose }: 
           )}
         >
           <div className="relative flex h-16 items-center gap-3 overflow-hidden border-b border-white/10 px-4">
-            <div className="pointer-events-none absolute inset-0 opacity-60">
-              <div className="landing-orb landing-orb-1" />
-              <div className="landing-orb landing-orb-2" />
-              <div className="landing-orb landing-orb-3" />
-              <div className="absolute inset-0 bg-gradient-to-b from-white/5 via-white/0 to-white/0" />
-            </div>
+            <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-brand-600/20 via-slate-900/10 to-violet-600/15" />
 
             <div className="relative z-10 flex items-center gap-3 rounded-2xl border border-white/10 bg-white/5 px-3 py-2 shadow-[0_8px_30px_rgba(0,0,0,0.25)]">
               <img
                 src="/images/GMR LOGO.png"
                 alt="GMR Logo"
                 className="h-8 w-auto"
+                loading="lazy"
+                decoding="async"
                 onError={(e) => {
                   ;(e.currentTarget as HTMLImageElement).style.display = 'none'
                 }}
@@ -182,18 +179,15 @@ export default function Sidebar({ variant = 'desktop', open = false, onClose }: 
   return (
     <aside className={clsx(`sticky top-0 hidden h-screen shrink-0 border-r md:block ${widthClass} overflow-hidden`, shellClass)}>
       <div className="relative flex h-16 items-center gap-3 border-b border-white/10 px-4">
-        <div className="pointer-events-none absolute inset-0 opacity-60">
-          <div className="landing-orb landing-orb-1" />
-          <div className="landing-orb landing-orb-2" />
-          <div className="landing-orb landing-orb-3" />
-          <div className="absolute inset-0 bg-gradient-to-b from-white/5 via-white/0 to-white/0" />
-        </div>
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-brand-600/20 via-slate-900/10 to-violet-600/15" />
 
         <div className={clsx('relative z-10 flex items-center gap-3 rounded-2xl border border-white/10 bg-white/5 px-3 py-2 shadow-[0_8px_30px_rgba(0,0,0,0.25)]', collapsed ? 'w-11 justify-center px-0' : 'w-auto')}>
           <img
             src="/images/GMR LOGO.png"
             alt="GMR Logo"
             className={clsx('h-8 w-auto', collapsed ? 'hidden' : 'block')}
+            loading="lazy"
+            decoding="async"
             onError={(e) => {
               ;(e.currentTarget as HTMLImageElement).style.display = 'none'
             }}

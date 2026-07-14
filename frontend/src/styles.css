@@ -9,7 +9,9 @@
 html,
 body {
   height: 100%;
+  scroll-behavior: smooth;
 }
+
 
 #root {
   min-height: 100%;
@@ -180,7 +182,9 @@ select option {
     linear-gradient(to bottom, rgba(255, 255, 255, 0.06) 1px, transparent 1px);
   background-size: 42px 42px;
   mask-image: radial-gradient(ellipse at center, black 30%, transparent 70%);
+  contain: layout style;
 }
+
 
 .landing-orb {
   position: absolute;
@@ -190,7 +194,11 @@ select option {
   filter: blur(48px);
   opacity: 0.55;
   animation: landing-orb 12s ease-in-out infinite;
+  will-change: transform;
+  contain: layout style;
+  backface-visibility: hidden;
 }
+
 
 .landing-orb-1 {
   top: -220px;
